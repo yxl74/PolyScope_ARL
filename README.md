@@ -1,10 +1,10 @@
 # PolyScope_Scoped
-,,,
+```
 sudo apt install python3
 pip3 install pure-python-adb
 pip3 install atpbar
 sudo apt-get install -y setools
-,,,
+```
 Need to install apkanalyzer through AndroidStudio and add it into terminal PATH
 
 
@@ -20,10 +20,14 @@ python3 dataCollection.py -n <device_name>
 Name device name by yourself
 
 Running PolyScope:
+```
 python3 scopedStorage_polyscope.py -n <device_name> -p <thread_number> -t <target_pakage_name>
+```
 
 So to run with atak, it would be:
+```
 python3 scopedStorage_polyscope.py -n oneplus8T_12 -p 8 -t com.atakmap.app.civ
+```
 
 
 Results:
