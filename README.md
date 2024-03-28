@@ -15,7 +15,9 @@ Rooted / Magisk installed, remember to grant shell root permission
 
 Data Collection:
 (with phone connected, adb available, and atak app installed)
-python3 dataCollection.py -n <device_name> 
+```
+python3 dataCollection.py -n <device_name>
+```
 
 Name device name by yourself
 
