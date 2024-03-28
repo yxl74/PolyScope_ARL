@@ -1,8 +1,10 @@
 # PolyScope_Scoped
+,,,
 sudo apt install python3
 pip3 install pure-python-adb
 pip3 install atpbar
 sudo apt-get install -y setools
+,,,
 Need to install apkanalyzer through AndroidStudio and add it into terminal PATH
 
 
